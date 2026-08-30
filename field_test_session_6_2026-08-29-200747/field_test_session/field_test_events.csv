@@ -1,0 +1,14 @@
+timestamp,ride_id,event_type,severity,message,speed,latitude,longitude,gps_accuracy,gps_age_ms,lean_angle,longitudinal_g,lateral_g,confidence,metadata
+2026-08-29T20:07:47.000,6,RIDE_STARTED,INFO,"Field test session started for ride #6 [v1.0.0+100 (e700ca64)]",,,,,,,,,,"{""software"":{""version"":""1.0.0"",""build"":100,""gitCommit"":""e700ca64fdb6365d30a76d81236c912a730bfad2"",""gitBranch"":""master"",""releaseChannel"":""release"",""telemetrySchemaVersion"":5,""exportSchemaVersion"":1,""buildTimestamp"":""2026-08-28T05:00:00Z""}}"
+2026-08-29T20:07:47.000,6,FOREGROUND_SERVICE_STARTED,INFO,"Foreground service confirmed active for ride #6",,,,,,,,,,
+2026-08-29T20:07:47.000,6,WAKELOCK_ACQUIRED,INFO,"Screen wakelock acquired for ride #6",,,,,,,,,,
+2026-08-29T20:07:47.000,6,TELEMETRY_PIPELINE_STARTED,INFO,"20Hz telemetry aggregation pipeline started for ride #6",,,,,,,,,,
+2026-08-29T20:08:55.000,6,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (53.1 m/s²)",28.44,,,,,,,,0.850,
+2026-08-29T20:09:02.000,6,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (51.7 m/s²)",21.44,,,,,,,,0.850,
+2026-08-29T20:09:04.000,6,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (73.9 m/s²)",37.50,,,,,,,,0.850,
+2026-08-29T20:09:13.000,6,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (50.6 m/s²)",12.09,,,,,,,,0.850,
+2026-08-29T20:09:18.000,6,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (55.9 m/s²)",13.68,,,,,,,,0.850,
+2026-08-29T20:10:42.000,6,RIDE_FINISH_REQUESTED,INFO,"Ride finish requested for ride #6",,,,,,,,,,
+2026-08-29T20:10:42.000,6,RIDE_FINALIZED,INFO,"Ride record #6 finalized in database",,,,,,,,,,
+2026-08-29T20:10:42.000,6,RIDE_STOPPED,INFO,"Field test session completed for ride #6",,,,,,,,,,
+2026-08-29T20:10:42.000,6,RIDE_SUMMARY_CREATED,INFO,"Field test summary generated and saved for ride #6",,,,,,,,,,

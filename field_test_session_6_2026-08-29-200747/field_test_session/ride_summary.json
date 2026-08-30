@@ -1,0 +1,26 @@
+{
+  "rideId": 6,
+  "startTime": "2026-08-29T20:07:47.000",
+  "endTime": "2026-08-29T20:10:42.000",
+  "distanceMiles": 1.150479096217603,
+  "topSpeedMph": 45.59764512913849,
+  "maxLeanLeft": 21.94351131792081,
+  "maxLeanRight": 22.3721686519288,
+  "maxAccelG": 0.41690654742030203,
+  "maxBrakingG": 0.5360330251553063,
+  "averageSpeed": 30.45385842928949,
+  "movingTime": 136,
+  "stoppedTime": 37,
+  "qualityScore": 86,
+  "qualityRating": "GOOD",
+  "software": {
+    "version": "1.0.0",
+    "build": 100,
+    "gitCommit": "e700ca64fdb6365d30a76d81236c912a730bfad2",
+    "gitBranch": "master",
+    "releaseChannel": "release",
+    "telemetrySchemaVersion": 5,
+    "exportSchemaVersion": 1,
+    "buildTimestamp": "2026-08-28T05:00:00Z"
+  }
+}
