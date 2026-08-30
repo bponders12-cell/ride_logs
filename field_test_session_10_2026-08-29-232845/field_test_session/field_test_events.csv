@@ -1,0 +1,15 @@
+timestamp,ride_id,event_type,severity,message,speed,latitude,longitude,gps_accuracy,gps_age_ms,lean_angle,longitudinal_g,lateral_g,confidence,metadata
+2026-08-29T23:28:45.000,10,RIDE_STARTED,INFO,"Field test session started for ride #10 [v1.0.1+101 (f4d8883e)]",,,,,,,,,,"{""software"":{""version"":""1.0.1"",""build"":101,""gitCommit"":""f4d8883e2f7e868931413458bd22f213cfea10f4"",""gitBranch"":""master"",""releaseChannel"":""release"",""telemetrySchemaVersion"":5,""exportSchemaVersion"":1,""buildTimestamp"":""2026-08-29T22:35:00Z""}}"
+2026-08-29T23:28:45.000,10,FOREGROUND_SERVICE_STARTED,INFO,"Foreground service confirmed active for ride #10",,,,,,,,,,
+2026-08-29T23:28:45.000,10,WAKELOCK_ACQUIRED,INFO,"Screen wakelock acquired for ride #10",,,,,,,,,,
+2026-08-29T23:28:45.000,10,TELEMETRY_PIPELINE_STARTED,INFO,"20Hz telemetry aggregation pipeline started for ride #10",,,,,,,,,,
+2026-08-29T23:29:10.000,10,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (78.7 m/s²)",15.94,,,,,,,,0.790,
+2026-08-29T23:29:13.000,10,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (61.1 m/s²)",29.77,,,,,,,,0.850,
+2026-08-29T23:29:31.000,10,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (80.4 m/s²)",19.67,,,,,,,,0.850,
+2026-08-29T23:29:33.000,10,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (64.7 m/s²)",34.06,,,,,,,,0.850,
+2026-08-29T23:31:14.000,10,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (59.7 m/s²)",11.50,,,,,,,,0.850,
+2026-08-29T23:31:41.000,10,SAMPLE_SUSPECT,WARNING,"Sample validation suspect: Suspicious acceleration spike (63.8 m/s²)",25.62,,,,,,,,0.850,
+2026-08-29T23:31:57.000,10,RIDE_FINISH_REQUESTED,INFO,"Ride finish requested for ride #10",,,,,,,,,,
+2026-08-29T23:31:57.000,10,RIDE_FINALIZED,INFO,"Ride record #10 finalized in database",,,,,,,,,,
+2026-08-29T23:31:57.000,10,RIDE_STOPPED,INFO,"Field test session completed for ride #10",,,,,,,,,,
+2026-08-29T23:31:57.000,10,RIDE_SUMMARY_CREATED,INFO,"Field test summary generated and saved for ride #10",,,,,,,,,,
